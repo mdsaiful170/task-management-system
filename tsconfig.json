@@ -3,6 +3,8 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
+    "types": ["offscreencanvas"],
+
     "paths": {
       "@/*": ["./src/*"],
       "@utilits/*": ["./lib/*"],
