@@ -1,4 +1,4 @@
-import { cn } from '@utilits/utils';
+import {cn} from "../../../lib/utils"
 import React, { ReactNode } from 'react';
 
 interface ContainerProps {

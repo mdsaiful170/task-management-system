@@ -1,6 +1,6 @@
-import Navbar from '@components/pages/Navbar';
-import { WavyBackground } from '@ui/wavy-background';
-import Taskmanagement from '@components/pages/Taskmanagement';
+import Navbar from './components/pages/Navbar';
+import Taskmanagement from './components/pages/Taskmanagement';
+import { WavyBackground } from './components/ui/wavy-background';
 
 const App: React.FC = () => {
   return (

@@ -3,16 +3,12 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": "./",
-    "types": ["offscreencanvas"],
 
-    "paths": {
-      "@/*": ["./src/*"],
-      "@utilits/*": ["./lib/*"],
-      "@components/*": ["./src/components/*"],
-      "@ui/*": ["./src/components/ui/*"],
-      "@pages/*": ["./src/pages/*"],
-      "@services/*": ["./src/services/*"]
-    },
     "jsx": "react-jsx"
-  }
+  },
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
 }

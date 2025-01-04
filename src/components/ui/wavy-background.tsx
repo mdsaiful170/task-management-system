@@ -1,8 +1,9 @@
-'use client';
-import { cn } from '@utilits/utils';
+
+import {cn} from "../../../lib/utils"
 import React, { useEffect, useRef, useState } from 'react';
 import { createNoise3D } from 'simplex-noise';
-import { Container } from '@ui/Container';
+import { Container } from "./Container";
+i
 
 export const WavyBackground = ({
   children,

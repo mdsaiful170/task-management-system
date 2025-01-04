@@ -1,6 +1,7 @@
 import { Github, Slack } from 'lucide-react';
-import React, { useEffect, useState } from 'react';
-import { HoverBorderGradient } from '@ui/hover-border-gradient';
+import  { useEffect, useState } from 'react';
+import { HoverBorderGradient } from '../ui/hover-border-gradient';
+
 
 const Navbar = () => {
   const[todaydateandtiem, setdateandtiem] = useState<string>('')
