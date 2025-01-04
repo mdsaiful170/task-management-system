@@ -3,6 +3,7 @@
 import {cn} from "../../../lib/utils"
 import { useMotionValue, motion, useMotionTemplate } from 'framer-motion';
 import React, { MouseEvent as ReactMouseEvent, useState } from 'react';
+import { CanvasRevealEffect } from "./Canvas-reveal-effect";
 
 
 
