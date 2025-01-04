@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=M+PLUS+1:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply overflow-x-hidden scroll-p-7 scroll-smooth;
+  }
+  body {
+    @apply bg-[#000000] font-Inter text-base text-gray-100 transition-all duration-200 box-border;
+  }
+}
+
+@layer utilities {
+  @keyframes colorShift {
+    0% {
+      background-position: 0% !important;
+    }
+    100% {
+      background-position: 100% !important;
+    }
+  }
+  @media (min-width: 250px) {
+    html {
+      font-size: 65%;
+    }
+  }
+  @media (min-width: 375px) {
+    html {
+      font-size: 80%;
+    }
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 94%;
+    }
+  }
+  @media (min-width: 991px) {
+    html {
+      font-size: 100%;
+    }
+  }
+}
+
+html ::-webkit-scrollbar {
+  width: 0.5rem; /* স্ক্রলবারের প্রস্থ */
+}
+
+html ::-webkit-scrollbar-track {
+  background: transparent; /* Tailwind-এর pink-400 রঙ */
+  border-radius: 5rem; /* গোলাকার কোণ */
+}
+
+html ::-webkit-scrollbar-thumb {
+  background: gray; /* Tailwind-এর red-200 রঙ */
+  border-radius: 5rem;
+  height: 2rem; /* গোলাকার কোণ */
+}
